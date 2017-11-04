@@ -11,7 +11,11 @@ alias 42file="sh ~/projets/42FileChecker/42FileChecker.sh"
 alias vsc="open -a /Applications/Visual Studio Code.app"
 alias atom="open -a /Applications/Atom.app"
 
-alias google="sh ~/bash\ cmd/google.sh"
+alias google="sh ~/bash\ cmd/google.sh" 
+    /* mkdir "bash cmd" - touch "google.sh" -> 
+        <i>#!/bin/sh
+
+        $(open http://www.google.fr/search?q=$(echo $1 | tr " " "+")) </i>
 alias youtube="sh ~/bash\ cmd/youtube.sh"
 
 # !! PDF des projets !! #
